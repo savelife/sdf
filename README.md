@@ -1,8 +1,26 @@
 # sdf(Simplified development Framework)
 
-> 1、支持无Controller类 实现简化API接口实现
+> 动态注入controller API 接口 实现无Controller类编写
 >
-> 目录结构
+> 使用说明:
+>
+> 定义API 接口 ,  接口层添加API注册 ,与传统一致,可以支持swagger文档生成
+>
+> 接口返回无限制
+>
+> 接口参数目前可以支持 
+>
+> ​	1、实现IReq接口的类作为单一参数(Json 格式接受前端参数)
+>
+> ​	2、无参数
+>
+>  有其他想法的小伙伴可以一起完善这个框架,有时间会考虑完善整个框架,以期望支持DDD模式开发. 
+>
+> 
+
+
+
+### 目录结构
 
 ```yaml
 |-- sdf
