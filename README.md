@@ -30,16 +30,16 @@
         |   |-- java
         |   |   |-- com
         |   |       |-- sdf
-        								|-- normal #一般 常见 接口 写法 + 测试手动注入controller类方式
-        |   |           		|-- AddUserReq.java 
-        |   |           		|-- BaseControllerConfigurationDemo.java
-        |   |               |-- AbstractBaseController.java
-        |   |           		|-- IUserService.java
-        |   |           		|-- QueryUserReq.java
-        |   |           		|-- SDFApplication.java
-        |   |           		|-- UpdateUserReq.java
-        |   |           		|-- UserController.java
-        |   |           		|-- UserServiceImpl.java
+        |	|		    |-- normal #一般 常见 接口 写法 + 测试手动注入controller类方式
+        |   |           |   |-- AddUserReq.java 
+        |   |           |	|-- BaseControllerConfigurationDemo.java
+        |   |           |   |-- AbstractBaseController.java
+        |   |           |	|-- IUserService.java
+        |   |           |   |-- QueryUserReq.java
+        |   |      	    |   |-- SDFApplication.java
+        |   |           |   |-- UpdateUserReq.java
+        |   |           |   |-- UserController.java
+        |   |           |   |-- UserServiceImpl.java
         |   |           |-- common #基础类 
         |   |           |   |-- BusinessEnumIfc.java
         |   |           |   |-- BusinessException.java
