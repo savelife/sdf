@@ -30,7 +30,7 @@
         |   |-- java
         |   |   |-- com
         |   |       |-- sdf
-        |	|		    |-- normal #一般 常见 接口 写法 + 测试手动注入controller类方式
+        |	|		    |-- normal #常见接口写法+测试手动注入controller类方式
         |   |           |   |-- AddUserReq.java 
         |   |           |	|-- BaseControllerConfigurationDemo.java
         |   |           |   |-- AbstractBaseController.java
