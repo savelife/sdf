@@ -1,4 +1,4 @@
-package com.sdf;
+package com.sdf.normal;
 
 import com.sdf.common.IReq;
 import io.swagger.annotations.ApiModelProperty;
@@ -10,7 +10,7 @@ import lombok.Data;
  * @description
  */
 @Data
-public class QueryUserReq implements IReq {
+public class UpdateUserReq implements IReq {
     @ApiModelProperty(value = "name", name = "name", example = "34346412", required = true)
     String name;
 

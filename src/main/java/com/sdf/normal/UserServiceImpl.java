@@ -1,4 +1,4 @@
-package com.sdf;
+package com.sdf.normal;
 
 import com.sdf.common.Resp;
 import org.springframework.stereotype.Service;

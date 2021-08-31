@@ -1,9 +1,8 @@
-package com.sdf;
+package com.sdf.normal;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.sdf.common.SpringBeanFactory;
-import com.sdf.framework.controller.AbstractBaseController;
 import com.sdf.framework.controller.BaseController;
 import com.sdf.framework.controller.BaseService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -113,9 +112,9 @@ public class BaseControllerConfigurationDemo extends AbstractBaseController impl
 
         builder.options(configuration);
 
-        Object serviceBean = SpringBeanFactory.getBean(Class.forName("com.sdf.IUserService"));
+        Object serviceBean = SpringBeanFactory.getBean(Class.forName("com.sdf.normal.IUserService"));
         //Object reqBean = com.demo.SpringBeanFactory.getBean(Class.forName("com.demo.AddUserReq"));
-        Class<?> aClass = Class.forName("com.sdf.AddUserReq");
+        Class<?> aClass = Class.forName("com.sdf.normal.AddUserReq");
         Method method = serviceBean.getClass().getDeclaredMethod("add", aClass);
 
 
@@ -204,9 +203,9 @@ public class BaseControllerConfigurationDemo extends AbstractBaseController impl
         builder2.options(configuration);
 
 
-        Object serviceBean2 = SpringBeanFactory.getBean(Class.forName("com.sdf.IUserService"));
+        Object serviceBean2 = SpringBeanFactory.getBean(Class.forName("com.sdf.normal.IUserService"));
         //Object reqBean = com.demo.SpringBeanFactory.getBean(Class.forName("com.demo.AddUserReq"));
-        Class<?> aClass2 = Class.forName("com.sdf.QueryUserReq");
+        Class<?> aClass2 = Class.forName("com.sdf.normal.QueryUserReq");
         Method method3 = serviceBean2.getClass().getDeclaredMethod("find", aClass2);
 
         BaseService baseService2 = new BaseService(serviceBean2,method3);

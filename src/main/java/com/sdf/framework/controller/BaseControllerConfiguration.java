@@ -3,6 +3,7 @@ package com.sdf.framework.controller;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.sdf.common.SpringBeanFactory;
+import com.sdf.normal.AbstractBaseController;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.AutowireCapableBeanFactory;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
@@ -34,8 +35,7 @@ import java.util.jar.JarFile;
  * @description
  */
 @Component
-public class BaseControllerConfiguration extends AbstractBaseController
-    implements ApplicationRunner {
+public class BaseControllerConfiguration  implements ApplicationRunner {
 
     @Autowired
     ApplicationContext applicationContext;

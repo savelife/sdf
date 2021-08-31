@@ -1,4 +1,4 @@
-package com.sdf.framework.controller;
+package com.sdf.normal;
 
 import com.sdf.common.*;
 import org.slf4j.Logger;

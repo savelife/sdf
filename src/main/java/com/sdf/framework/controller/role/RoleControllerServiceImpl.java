@@ -1,6 +1,6 @@
 package com.sdf.framework.controller.role;
 
-import com.sdf.QueryUserReq;
+import com.sdf.normal.QueryUserReq;
 import com.sdf.common.Resp;
 import com.sdf.framework.domain.Role;
 import org.springframework.stereotype.Service;

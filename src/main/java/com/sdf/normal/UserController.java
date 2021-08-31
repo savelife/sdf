@@ -1,7 +1,6 @@
-package com.sdf;
+package com.sdf.normal;
 
 import com.sdf.common.Resp;
-import com.sdf.framework.controller.AbstractBaseController;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
