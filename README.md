@@ -30,11 +30,11 @@
         |   |-- java
         |   |   |-- com
         |   |       |-- sdf
-        |	|		    |-- normal #常见接口写法+测试手动注入controller类方式
+        |	|           |-- normal #常见接口写法+测试手动注入controller类方式
         |   |           |   |-- AddUserReq.java 
         |   |           |	|-- BaseControllerConfigurationDemo.java
         |   |           |   |-- AbstractBaseController.java
-        |   |           |	|-- IUserService.java
+        |   |           |   |-- IUserService.java
         |   |           |   |-- QueryUserReq.java
         |   |      	    |   |-- SDFApplication.java
         |   |           |   |-- UpdateUserReq.java
