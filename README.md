@@ -4,7 +4,7 @@
 >
 > 使用说明:
 >
-> 定义API 接口 ,  接口层添加API注册 ,与传统一致,可以支持swagger文档生成
+> 定义API 接口 ,  接口层添加API注解 ,与传统一致,可以支持swagger文档生成
 >
 > 接口返回无限制
 >
@@ -30,16 +30,16 @@
         |   |-- java
         |   |   |-- com
         |   |       |-- sdf
-        								|-- normal #一般 常见 接口 写法 + 测试手动注入controller类方式
-        |   |           		|-- AddUserReq.java 
-        |   |           		|-- BaseControllerConfigurationDemo.java
-        |   |               |-- AbstractBaseController.java
-        |   |           		|-- IUserService.java
-        |   |           		|-- QueryUserReq.java
-        |   |           		|-- SDFApplication.java
-        |   |           		|-- UpdateUserReq.java
-        |   |           		|-- UserController.java
-        |   |           		|-- UserServiceImpl.java
+        |	|           |-- normal #常见接口写法+测试手动注入controller类方式
+        |   |           |   |-- AddUserReq.java 
+        |   |           |	|-- BaseControllerConfigurationDemo.java
+        |   |           |   |-- AbstractBaseController.java
+        |   |           |   |-- IUserService.java
+        |   |           |   |-- QueryUserReq.java
+        |   |      	    |   |-- SDFApplication.java
+        |   |           |   |-- UpdateUserReq.java
+        |   |           |   |-- UserController.java
+        |   |           |   |-- UserServiceImpl.java
         |   |           |-- common #基础类 
         |   |           |   |-- BusinessEnumIfc.java
         |   |           |   |-- BusinessException.java
